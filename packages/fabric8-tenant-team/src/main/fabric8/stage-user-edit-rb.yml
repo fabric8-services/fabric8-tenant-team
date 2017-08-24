@@ -1,0 +1,10 @@
+metadata:
+  name: user-edit
+  namespace: ${PROJECT_NAME}-stage
+roleRef:
+  name: edit
+subjects:
+- kind: User
+  name: ${PROJECT_USER}
+userNames:
+- ${PROJECT_USER}
