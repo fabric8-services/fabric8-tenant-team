@@ -8,6 +8,12 @@ data:
   # placeholder to set an external docker registry
   external-docker-registry-url: ${EXTERNAL_DOCKER_REGISTRY_URL}
 
+  # where is the fabric8 console
+  fabric8-console-url: ${FABRIC8_CONSOLE_URL}
+
+  # where is the fabric8 console
+  keycloak-url: ${KEYCLOAK_URL}
+
   # specify job names to the pipeline kind such as:
   # - foo: CD
   job-name-to-kind:
